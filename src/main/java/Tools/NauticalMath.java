@@ -3,17 +3,11 @@ package Tools;
 public class NauticalMath {
     private final double a = 7915.70447d;
     private final double e = 0.08181919034d;
-    private final double e2 = 0.066943799079d;
     private final double half_e = 0.040909552d;
-    private final double GeoToNautical_coeff = 1.001795274d;
     private final double aNm = 3443.91846652268d;
 
-    /**
-     * All formulas used for the calculation are taken from Brown's Nautical Almanac
-     * WGS-84 Geodesic system
-     */
-    public NauticalMath() {
-
+    public static double euclideanDistance(Coordinates c1, Coordinates c2) {
+        return Math.sqrt(Math.pow(c2.getX()-c1.getX(), 2) + Math.pow(c2.getY() - c1.getY(), 2));
     }
 
     public double GC_Dist(Coordinates c1, Coordinates c2) {
@@ -76,7 +70,8 @@ public class NauticalMath {
         if (Math.abs(c2.getX() - c1.getX()) <= 0.00001d) { // if course laid on Parallel (90 or 270 Deg)
             return c2.getY() - c1.getY() > 0 ? 90d : 270d;
         }
-        double diffLotAbs = Math.abs(c2.getY() - c1.getY()) > 180 ? 360 - (Math.abs(c2.getY() - c1.getY())) : Math.abs(c2.getY() - c1.getY());
+        double diffLotAbs = Math.abs(c2.getY() - c1.getY()) > 180 ? 360 -
+                (Math.abs(c2.getY() - c1.getY())) : Math.abs(c2.getY() - c1.getY());
         double diffLot = c2.getY() - c1.getY();
         double diffLat = c2.getX() - c1.getX();
 
