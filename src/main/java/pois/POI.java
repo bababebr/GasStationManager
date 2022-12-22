@@ -1,12 +1,6 @@
-package Entity;
+package pois;
 
 import Tools.Coordinates;
-
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.List;
 
 public class POI {
 

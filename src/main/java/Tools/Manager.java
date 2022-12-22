@@ -1,7 +1,7 @@
 package Tools;
 
-import Entity.GasStation;
-import Entity.POI;
+import pois.GasStation;
+import pois.POI;
 
 import java.io.IOException;
 import java.nio.file.Files;

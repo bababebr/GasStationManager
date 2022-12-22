@@ -1,0 +1,11 @@
+<metadata>
+<name> xsd:string </name>
+<desc> xsd:string </desc>
+<author> personType </author>
+<copyright> copyrightType </copyright>
+<link> linkType </link>
+<time> xsd:dateTime </time>
+<keywords> xsd:string </keywords>
+<bounds> boundsType </bounds>
+<extensions> extensionsType </extensions>
+</metadata>

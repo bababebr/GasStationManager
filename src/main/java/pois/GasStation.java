@@ -1,7 +1,6 @@
-package Entity;
+package pois;
 
 import Tools.Coordinates;
-import Tools.Manager;
 
 public class GasStation extends POI{
 

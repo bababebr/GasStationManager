@@ -1,4 +1,4 @@
-package Entity;
+package pois;
 
 public class City {
 
