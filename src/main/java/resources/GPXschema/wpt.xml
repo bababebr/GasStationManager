@@ -1,0 +1,23 @@
+<wpt
+lat="latitudeType [1] ?"
+lon="longitudeType [1] ?">
+<ele> xsd:decimal </ele>
+<time> xsd:dateTime </time>
+<magvar> degreesType </magvar>
+<geoidheight> xsd:decimal </geoidheight>
+<name> xsd:string </name>
+<cmt> xsd:string </cmt>
+<desc> xsd:string </desc>
+<src> xsd:string </src>
+<link> linkType </link>
+<sym> xsd:string </sym>
+<type> xsd:string </type>
+<fix> fixType </fix>
+<sat> xsd:nonNegativeInteger </sat>
+<hdop> xsd:decimal </hdop>
+<vdop> xsd:decimal </vdop>
+<pdop> xsd:decimal </pdop>
+<ageofdgpsdata> xsd:decimal </ageofdgpsdata>
+<dgpsid> dgpsStationType </dgpsid>
+<extensions> extensionsType </extensions>
+        </wpt>

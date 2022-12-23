@@ -1,0 +1,11 @@
+<trk>
+<name> xsd:string </name> [0..1] ?
+<cmt> xsd:string </cmt> [0..1] ?
+<desc> xsd:string </desc> [0..1] ?
+<src> xsd:string </src> [0..1] ?
+<link> linkType </link> [0..*] ?
+<number> xsd:nonNegativeInteger </number> [0..1] ?
+<type> xsd:string </type> [0..1] ?
+<extensions> extensionsType </extensions> [0..1] ?
+<trkseg> trksegType </trkseg> [0..*] ?
+</trk>

@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0cb8c6-9e9e-4fe4-a8c0-25735c9365a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/GPXschema/gps.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/GPXschema/metadata.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/route/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/route/Waypoint.java" afterDir="false" />
+    <list default="true" id="1b0cb8c6-9e9e-4fe4-a8c0-25735c9365a7" name="Changes" comment="feat: add gpx scheme files; add Route and Waypoint classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/GPXschema/extensionsType.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/GPXschema/rteType.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/GPXschema/trkType.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/GPXschema/wpt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GasStationManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GasStationManager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pois/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pois/GasStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/POI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pois/POI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tools/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tools/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/choff/IdeaProjects/GasStationManager/src/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/choff/IdeaProjects/GasStationManager/src/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\choff\IdeaProjects\GasStationManager\src\resources" />
@@ -84,8 +76,19 @@
       <option name="presentableId" value="Default" />
       <updated>1670137503060</updated>
       <workItem from="1670137504201" duration="4183000" />
-      <workItem from="1671689317737" duration="1245000" />
+      <workItem from="1671689317737" duration="1380000" />
+      <workItem from="1671767077083" duration="38000" />
+      <workItem from="1671768803203" duration="505000" />
+      <workItem from="1671769911664" duration="1249000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add gpx scheme files; add Route and Waypoint classes">
+      <created>1671692046576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671692046576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add gpx scheme files; add Route and Waypoint classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add gpx scheme files; add Route and Waypoint classes" />
   </component>
 </project>

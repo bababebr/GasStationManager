@@ -1,0 +1,3 @@
+<extensions>
+        Allow any elements from a namespace other than this schema's namespace (lax validation). [0..*]
+</extensions>
